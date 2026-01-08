@@ -20,3 +20,54 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# dependencies
+node_modules/
+
+# production
+build/
+dist/
+
+# environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# testing
+coverage/
+
+# cache
+.cache/
+.eslintcache
+
+# python (if backend / ML used)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# model files (optional, if large)
+*.pkl
+*.joblib
+*.h5
+
+# misc
+*.log
