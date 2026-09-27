@@ -1,23 +1,19 @@
-# spamshield-email-detection
-Built an AI-powered email spam detection tool that classifies emails based on content, subject, and sender, providing risk levels, confidence scores, and explainable results.
-SpamShield – AI Email Spam Detection
+# SpamShield — Email Risk Analysis Concept
 
-An AI-powered tool that analyzes email content, subject, and sender
-to detect spam and phishing with confidence scoring and clear reasoning.
+<p align="center"><strong>A project concept for analyzing an email and explaining signals that may indicate spam or phishing.</strong></p>
 
-Features
-- Spam / Not Spam classification
-- Risk level with confidence score
-- Explainable results (why it was flagged or safe)
-- Clean, minimal UI
+## Intended workflow
 
-Tech Stack
-- React
-- Tailwind CSS
-- AI/ML model (rule-based + ML / LLM-assisted)
+```mermaid
+flowchart LR
+  E[Email content] --> P[Feature extraction — planned]
+  P --> C[Risk classification — planned]
+  C --> X[Risk level, confidence, and reasons — planned]
+  X --> U[User review]
+```
 
-Live Demo
-<your deployed link>
+This is a conceptual workflow. The repository currently contains project copy and GitHub support files, but no classifier implementation, setup guide, or runnable app source.
 
-Note
-Predictions are probabilistic and may not be 100% accurate.
+## Before presenting it as runnable
+
+Add the application and evaluation data, explain how email text is stored or discarded, and test false positives as well as spam detection. Do not use an unvalidated score as the sole reason to open, block, or delete a message.
